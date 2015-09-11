@@ -39,7 +39,7 @@ $(function() {
         $('body').css({ 'width': $(window).width() })
    });
 
-   $(window).on('scroll', function() {
+ $(window).on('scroll', function() {
 	var h = $('header').height();
 	var y = $(window).scrollTop();
     var nav = $('#nav-wrap');
