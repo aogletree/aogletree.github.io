@@ -1,5 +1,8 @@
+@import "colors";
+
+// Headings
 h1, h2, h3, h4, h5, h6 {
-   color: #313131;
+   color: $background1;
 	font-family: 'opensans-bold', sans-serif;
    font-weight: normal;
 }
@@ -57,7 +60,7 @@ blockquote cite {
 }
 blockquote cite:before { content: "\2014 \0020"; }
 blockquote cite a,
-blockquote cite a:visited { color: #8B9798; border: none }
+blockquote cite a:visited { color: $background2; border: none }
 
 /* ---------------------------------------------------------------------
 /*  Pull Quotes Markup
@@ -98,27 +101,4 @@ blockquote cite a:visited { color: #8B9798; border: none }
    content: none;
 }
 
-/* Abbreviations */
-abbr {
-   font-family: 'opensans-bold', sans-serif;
-	font-variant: small-caps;
-	text-transform: lowercase;
-   letter-spacing: .5px;
-	color: gray;
-}
-abbr:hover { cursor: help; }
-
-/* drop cap */
-.drop-cap:first-letter {
-	float: left;
-	margin: 0;
-	padding: 14px 6px 0 0;
-	font-size: 84px;
-	font-family: /* Copperplate */ 'opensans-bold', sans-serif;
-   line-height: 60px;
-	text-indent: 0;
-	background: transparent;
-	color: inherit;
-}
-
-hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 30px; height: 0; }
+hr { border: solid $background3; border-width: 1px 0 0; clear: both; margin: 11px 0 30px; height: 0; }
