@@ -17,3 +17,9 @@ stack-overflow-url: http://stackoverflow.com/users/5321490/adrian-ogletree
 google-plus-url: https://plus.google.com/
 google-plus-user: u/0/104324899611303828189/
 #goodreads-url: https://www.goodreads.com/user/show/8889048-adrian-ogletree
+
+sass:
+  style: compressed
+
+sass:
+  sass_dir: _sass
